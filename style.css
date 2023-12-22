@@ -618,3 +618,11 @@ width: 180px;
 height: 71px;
 flex-shrink: 0;
 }
+.vector{
+	margin-top: -120px;
+	margin-left: 800px;
+	position: absolute;
+}
+.vector2{
+	position: absolute;
+}
