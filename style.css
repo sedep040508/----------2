@@ -608,5 +608,13 @@ font-weight: 700;
 line-height: 58.002px; /* 138.1% */
 }
 .btn4{
-	
+	color: white;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	border-radius: 10px;
+	background: #090909;
+width: 180px;
+height: 71px;
+flex-shrink: 0;
 }
