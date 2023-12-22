@@ -626,3 +626,12 @@ flex-shrink: 0;
 .vector2{
 	position: absolute;
 }
+.big_see{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 57.609px;
+	max-width: 1440px;
+height: 1087px;
+background: #FEF9F2;
+}
