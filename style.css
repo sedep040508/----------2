@@ -587,4 +587,6 @@ margin-left: 30px;
 	max-width: 1220px;
 height: 436px;
 flex-shrink: 0;
+border-radius: 40px;
+background: #FF9C08;
 }
