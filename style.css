@@ -629,13 +629,25 @@ flex-shrink: 0;
 .see_big{
 	max-width: 1440px;
 	background: #FEF9F2;
-	height: 1086px;
+	height: 1087px;
 }
 .see_b{
 	display: flex;
 width: 1220px;
-padding-right: 0.016px;
 justify-content: center;
-align-items: center;
 gap: 57.609px;
+}
+.see_left{
+	max-width: 624.375px;
+}
+.white{
+	width: 388px;
+	height: 298px;
+	border-radius: 12px;
+border: 1px solid #F0ECE8;
+background: #FFF;
+box-shadow: 0px 2px 12px 0px rgba(43, 43, 43, 0.06);
+position: absolute;
+right: 0;
+bottom: 0;
 }
