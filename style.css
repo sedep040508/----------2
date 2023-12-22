@@ -583,3 +583,8 @@ font-weight: 400;
 line-height: 30.006px;
 margin-left: 30px;
 }
+.yellow{
+	max-width: 1220px;
+height: 436px;
+flex-shrink: 0;
+}
