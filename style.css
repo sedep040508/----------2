@@ -631,3 +631,11 @@ flex-shrink: 0;
 	background: #FEF9F2;
 	height: 1086px;
 }
+.see_b{
+	display: flex;
+width: 1220px;
+padding-right: 0.016px;
+justify-content: center;
+align-items: center;
+gap: 57.609px;
+}
