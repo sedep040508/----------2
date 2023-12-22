@@ -626,6 +626,7 @@ flex-shrink: 0;
 .vector2{
 	position: absolute;
 }
-.see{
+.see_big{
 	max-width: 1440px;
+	background: #FEF9F2;
 }
