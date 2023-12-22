@@ -599,9 +599,14 @@ align-items: center;
 gap: 158.453px;
 }
 .y_tit{
+	max-width: 487px;
+	flex-shrink: 0;
 	color: #090909;
 font-size: 42px;
 font-style: normal;
 font-weight: 700;
 line-height: 58.002px; /* 138.1% */
+}
+.btn4{
+	
 }
