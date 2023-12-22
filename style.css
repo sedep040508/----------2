@@ -627,5 +627,5 @@ flex-shrink: 0;
 	position: absolute;
 }
 .see{
-	
+	max-width: 1440px;
 }
