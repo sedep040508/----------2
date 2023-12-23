@@ -821,9 +821,12 @@ gap: 22px;
 .f_center{
 	padding-top: 175px;
 }
-.f_right{
+.f_orange{
+	margin-top: 175px;
+	margin-left: 60px;
 	width: 388px;
 height: 364px;
+flex-shrink: 0;
 border-radius: 14px;
 background: #FF9C08;
 }
