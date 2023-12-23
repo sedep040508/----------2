@@ -768,3 +768,7 @@ margin-left: 49px;
 	max-width: 1220px;
 	margin-top: 300px;
 }
+.btns4{
+	display: flex;
+	gap: 28px;
+}
