@@ -645,3 +645,11 @@ background: #FEF9F2;
 	box-shadow: 0px 2px 12px 0px rgba(43, 43, 43, 0.06);
 
 }
+.see_txt{
+	color: #6E6E6E;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: 30.006px; /* 176.506% */
+max-width: 509px;
+}
