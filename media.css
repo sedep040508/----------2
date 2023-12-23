@@ -32,9 +32,29 @@
 		height: 568px;
 	 }
 	 .humans{
-		width: 100%;
+		width: 900px;
 	 }
 	 .general{
+		margin-left: 100px;
+	 }
+	 .support{
+		width: 900px;
+	 }
+	 .s_orange{
+		font-size: 15px;
+	 }
+	 .s_tit{
+		font-size: 30px;
+		line-height: 38.002px;
+	 }
+	 .s_txt{
+		font-size: 15px;
+	 }
+	 .btn3{
+		width: 140px;
+		height: 61px;
+	 }
+	 .img3{
 		
 	 }
     }
