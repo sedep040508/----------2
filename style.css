@@ -773,6 +773,10 @@ margin-left: 49px;
 	gap: 28px;
 	margin-left: 420px;
 }
-.footer{
-	
+.footer_big{
+	max-width: 1440px;
+	background: #FEF9F2;
+}
+.foot_img{
+	max-width: 239px;
 }
