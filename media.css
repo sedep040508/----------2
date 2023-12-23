@@ -1,0 +1,41 @@
+@media  screen and (max-width: 700px){
+	img{
+	 width: 100%;
+	}
+ @media  screen and (max-width: 770px){
+	 .menu{
+		 display: none;
+	 }
+	 .btn{
+		width: 120px;
+		height: 51px;
+	 }
+	 .h_tit{
+		font-size: 35px;
+		width: 350px;
+		line-height: 49.98px;
+	 }
+	 .h_txt{
+		font-size: 20px;
+		width: 400px;
+	 }
+	 .btn1{
+		width: 140px;
+		height: 61px;
+	 }
+	 .btn2{
+		width: 170px;
+		height: 61px;
+	 }
+	 .h__right{
+		width: 377px;
+		height: 568px;
+	 }
+	 .humans{
+		width: 100%;
+	 }
+	 .general{
+		
+	 }
+    }
+}
