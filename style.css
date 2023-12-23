@@ -830,3 +830,46 @@ flex-shrink: 0;
 border-radius: 14px;
 background: #FF9C08;
 }
+.vec{
+	position: absolute;
+}
+.vect{
+	position: absolute;
+	margin-left: 185px;
+    margin-top: -150px;
+}
+.right_tit{
+	color: #090909;
+max-width: 282px;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 34.008px;
+margin: 64px 58px 27px 48px;
+padding-top: 64px;
+}
+.btn5{
+	color:white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 292px;
+height: 71px;
+border-radius: 10px;
+background: #090909;
+margin-bottom: 16px;
+}
+.btns5{
+	padding-left: 48px;
+}
+.btn6{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 292px;
+height: 71px;
+	border-radius: 10px;
+border: 1px solid #F0ECE8;
+background: #FFF;
+box-shadow: 0px 4px 10px 0px rgba(43, 43, 43, 0.04);
+}
