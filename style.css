@@ -715,6 +715,38 @@ line-height: 58.002px; /* 138.1% */
 height: 1087px;
 background: #FEF9F2;
 }
+h1{
+	animation-duration: 3s;
+  	animation-name: slidein;
+}
+@keyframes slidein {
+	from {
+	  margin-left: 100%;
+	  width: 300%;
+	}
+  
+	to {
+	  margin-left: 0%;
+	  width: 100%;
+	}
+  }
+  p{
+	animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  }
+  @keyframes slidein {
+	from {
+	  margin-left: 100%;
+	  width: 300%;
+	}
+  
+	to {
+	  margin-left: 0%;
+	  width: 100%;
+	}
+  }
+  
 .white{
 	max-width: 388px;
 	height: 298px;
@@ -723,7 +755,10 @@ background: #FEF9F2;
 	border: 1px solid #F0ECE8;
 	background: #FFF;
 	box-shadow: 0px 2px 12px 0px rgba(43, 43, 43, 0.06);
-
+	position: absolute;
+	position: relative;
+	margin-left: 300px;
+	margin-top: -200px;
 }
 .see_txt{
 	color: #6E6E6E;
