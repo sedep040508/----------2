@@ -788,6 +788,10 @@ margin-top: -80px;
 	background: #FFF;
 	transition: 0.3s;
 }
+.white_btn:hover{
+	color: white;
+	background: #000;
+}
 .white_txt{
 	justify-content: center;
 	align-items: center;
@@ -811,11 +815,16 @@ margin-left: 49px;
 .wh_btn{
 	width: 93px;
 	color: #090909;
-font-size: 18px;
-font-style: normal;
-font-weight: 700;
-line-height: 19.998px;
-margin-left: 49px;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 19.998px;
+	margin-left: 49px;
+	transition: 0.3s;
+}
+.wh_btn:hover{
+	border: 2px solid #2c2f24;
+	text-align: center;
 }
 .read_buttom{
 	max-width: 1220px;
