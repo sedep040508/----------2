@@ -13,6 +13,7 @@ html,body{
 }
 .h__right{
 flex-shrink: 0;
+box-shadow: 0 10px 5px -5px rgba(30, 129, 204, 0.2);
 }
 a{
 	color: inherit;
@@ -160,6 +161,7 @@ justify-content: flex-end;
 align-items: center;
 gap: 24px;
 }
+
 .btn{
 	color: #090909;
 text-align: center;
@@ -230,11 +232,17 @@ margin-bottom: 43px;
 	border-radius: 10px;
 	background: #FF9C08;
 	transition:0.3s ;
+	transform: scale(1);
+    box-shadow: 0 0 5px 5px rgba(34, 60, 80, 0.2);
+    transition: box-shadow 0.5s, transform 0.5s;
 }
 .btn1:hover{
 	background: #fff;
 	border: 2px solid #2c2f24;
 	font-size: 20px;
+	transform: scale(1.2);
+    box-shadow: 0 0 15px 7px rgba(34, 60, 80, 0.2);
+    transition: box-shadow 0.5s, transform 0.5s;
 }
 .btn2{
 	transition: 0.3s;
@@ -249,10 +257,18 @@ margin-bottom: 43px;
 	align-items: center;
 	display: flex;
 	font-weight: 700;
+	transform: scale(1);
+    box-shadow: 0 0 5px 5px rgba(34, 60, 80, 0.2);
+    transition: box-shadow 0.5s, transform 0.5s;
+
 }
 .btn2:hover{
-	background: bisque;
+	background: black;
 	font-size: 20px;
+	color:white;
+	transform: scale(1.2);
+    box-shadow: 0 0 15px 7px rgba(34, 60, 80, 0.2);
+    transition: box-shadow 0.5s, transform 0.5s;
 }
 .humans{
 	background: #FEF9F2;
@@ -362,11 +378,24 @@ gap: 28px;
 	color: #090909;
 	font-weight: 700;
 	width: 153px;
-height: 73px;
-border-radius: 10px;
-border: 1px solid #F0ECE8;
-background: #FFF;
-box-shadow: 0px 4px 10px 0px rgba(43, 43, 43, 0.04);
+	height: 73px;
+	border-radius: 10px;
+	border: 1px solid #F0ECE8;
+	transition:0.3s ;
+	background: #FFF;
+	box-shadow: 0px 4px 10px 0px rgba(43, 43, 43, 0.04);
+	transform: scale(1);
+    box-shadow: 0 0 5px 5px rgba(34, 60, 80, 0.2);
+    transition: box-shadow 0.5s, transform 0.5s;
+}
+.btn3:hover{
+	background: #000;
+	border: 2px solid white;
+	color:#FFF;
+	font-size: 20px;
+	transform: scale(1.2);
+    box-shadow: 0 0 15px 7px rgba(34, 60, 80, 0.2);
+    transition: box-shadow 0.5s, transform 0.5s;
 }
 .sr_txt{
 	max-width: 580px;
@@ -660,9 +689,15 @@ line-height: 58.002px; /* 138.1% */
 	display: flex;
 	border-radius: 10px;
 	background: #090909;
-width: 180px;
-height: 71px;
-flex-shrink: 0;
+	width: 180px;
+	height: 71px;
+	flex-shrink: 0;
+	transition:0.3s ;
+}
+.btn4:hover{
+	background: white;
+	color:#000;
+	font-size: 20px;
 }
 .vector{
 	margin-top: -120px;
