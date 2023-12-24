@@ -590,19 +590,20 @@ gap: 48px;
 	margin-top: 700px;
 }
 .cards{
-	display: flex;
-	max-width: 1220px;
-	gap: 20px;
+	padding: 10px;
+	gap: 40px;
 	/* flex-direction: column; */
 }
 .comm_big{
 	display: flex;
 max-width: 1268px;
-padding: 0px 24px;
 flex-direction: column;
 justify-content: center;
 align-items: flex-start;
 gap: 64px;
+}
+.c_buttom{
+	gap: 40px;
 }
 .c_left{
 	display: flex;
@@ -619,17 +620,16 @@ font-style: normal;
 font-weight: 700;
 line-height: 58.002px; /* 138.1% */
 }
-.c_buttom{
-	max-width: 1220px;
 
-}
 .card1{
+	margin: 10px;
 	width: 388px;
 height: 450px;
 flex-shrink: 0;
 border-radius: 12px;
 border: 1px solid #F0ECE8;
 background: #FFF;
+display: inline-block;
 box-shadow: 0px 2px 12px 0px rgba(43, 43, 43, 0.06);
 }
 .c_img{
@@ -730,23 +730,6 @@ h1{
 	  width: 100%;
 	}
   }
-  p{ 
-	animation-duration: 3s;
-  animation-name: slidein;
-  animation-iteration-count: infinite;
-  }
-  @keyframes slidein {
-	from {
-	  margin-left: 100%;
-	  width: 300%;
-	}
-  
-	to {
-	  margin-left: 0%;
-	  width: 100%;
-	}
-  }
-  
 .white{
 	max-width: 388px;
 	height: 298px;
