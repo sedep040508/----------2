@@ -950,6 +950,13 @@ box-shadow: 0px 4px 10px 0px rgba(43, 43, 43, 0.04);
     transform: translate(-50%, 0);
     transition: transform 1s;
 }
+.footer_buttom{
+	width: 1220px;
+height: 101px;
+}
+.butt_left{
+	display: flex;
+}
 .f_orange:hover {
     transform: translateY(-40px);
     transition: transform 1s;
@@ -960,12 +967,16 @@ box-shadow: 0px 4px 10px 0px rgba(43, 43, 43, 0.04);
 }
 .but_text{
 	color: #6E6E6E;
-font-family: DM Sans;
 font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: 30.006px; /* 166.7% */
 }
 .but_txt{
-	
+	color: #090909;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30.006px; /* 166.7% */
+text-decoration-line: underline;
 }
