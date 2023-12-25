@@ -461,6 +461,10 @@ line-height: 19.998px; /* 117.635% */
 	max-width: 26px;
 height: 26px;
 }
+
+.support .container {
+	max-width: 1220px;
+}
 .look{
 	margin-top: 100px;
 	margin-bottom: 100px;
@@ -478,6 +482,7 @@ gap: 116px;
 }
 .l_left{
 	 max-width: 520px;
+	 margin-left: 80px;
 }
 .card{
 	display: inline-flex;
@@ -530,6 +535,7 @@ line-height: 19.998px;
 }
 .img_center{
 	margin-bottom: 80px;
+	margin-left: 70px;
 }
 .img_center img{
 	border-radius: 65px;
@@ -579,7 +585,6 @@ font-weight: 400;
 line-height: 30.006px; /* 166.7% */
 }
 .o_t{
-	display: inline-flex;
 height: 162px;
 justify-content: center;
 align-items: flex-start;
@@ -610,8 +615,6 @@ gap: 64px;
 }
 .c_left{
 	display: flex;
-height: 154px;
-justify-content: center;
 align-items: flex-end;
 gap: 444px;
 }
