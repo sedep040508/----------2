@@ -12,8 +12,6 @@ html,body{
  display: table;
 }
 .h__right{
-flex-shrink: 0;
-box-shadow: 0 10px 5px -5px rgba(30, 129, 204, 0.2);
 }
 a{
 	color: inherit;
@@ -25,11 +23,7 @@ li{
 ul li:last-child{
 	margin-bottom: 0;
 }
-img{
-	display: block;
-	width: 100%;
-	height: auto;
-}
+
 button,
 label{
 	cursor: pointer;
@@ -146,13 +140,16 @@ gap: 40px;
 }
 .menu{
 	display: flex;
+	gap: 15px;
+}
+li{
+	display: flex;
 	margin-top: 5px;
 	gap: 26px;
 	transition: 0.3s;
 }
-.menu:hover{
-	color: orange;
-	font-size: 15px;
+li:hover{
+	font-size: 20px;
 }
 .h_right{
 	display: flex;
@@ -189,7 +186,6 @@ align-items: center;
 	display: flex;
 }
 .h__left{
-	flex-shrink: 0;
 	margin: 108px 20px 264px 110px
 }
 .orange{
@@ -338,6 +334,7 @@ font-style: normal;
 font-weight: 700;
 line-height: 58.002px; 
 margin-bottom: 28px;
+
 }
 .s_txt{
 	max-width: 576px;
@@ -624,13 +621,17 @@ line-height: 58.002px; /* 138.1% */
 .card1{
 	margin: 10px;
 	width: 388px;
-height: 450px;
-flex-shrink: 0;
-border-radius: 12px;
-border: 1px solid #F0ECE8;
-background: #FFF;
-display: inline-block;
-box-shadow: 0px 2px 12px 0px rgba(43, 43, 43, 0.06);
+	height: 450px;
+	flex-shrink: 0;
+	border-radius: 12px;
+	border: 1px solid #F0ECE8;
+	background: #FFF;
+	display: inline-block;
+	box-shadow: 0px 2px 12px 0px rgba(43, 43, 43, 0.06);
+	transition: 0.3ms;
+}
+.card1:hover{
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
 }
 .c_img{
 	max-width: 172px;
@@ -881,11 +882,19 @@ height: 364px;
 }
 .c_tit{
 	color: #090909;
-font-size: 30px;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 52px;
+margin-bottom: 41px;
+}
+.b_tit{
+	color: #090909;
+font-size: 20px;
 font-style: normal;
 font-weight: 700;
 line-height: 22px;
-margin-bottom: 41px;
+margin-bottom: 23px;
 }
 .f_list{
 	display: inline-flex;

@@ -15,5 +15,4 @@ function outNum(num, elem){
 
 }
 
-outNum(200, 'num');
-
+outNum(200, '.num');
