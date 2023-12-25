@@ -480,14 +480,15 @@ gap: 116px;
 .look_cards{
 	margin-bottom: 77px;
 }
+.look .container{
+	max-width:  1220px;
+}
 .l_left{
 	 max-width: 520px;
-	 margin-left: 80px;
 }
 .card{
 	display: inline-flex;
 height: 76px;
-padding-right: 29px;
 align-items: flex-start;
 gap: 16px;
 margin-bottom: 30px;
