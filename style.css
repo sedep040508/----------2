@@ -480,11 +480,23 @@ gap: 116px;
 .look_cards{
 	margin-bottom: 77px;
 }
+.comm .container{
+	max-width: 1290px;
+}
 .look .container{
 	max-width:  1220px;
 }
+.yellow .container{
+	max-width: 1220px;
+}
 .l_left{
 	 max-width: 520px;
+}
+footer .container{
+	max-width: 1220px;
+}
+.read .container{
+	max-width: 1220px;
 }
 .card{
 	display: inline-flex;
@@ -1031,7 +1043,8 @@ text-decoration-line: underline;
 	width: 344px;
 height: 36px;
 flex-shrink: 0;
-margin-left: 150px;
+margin-left: 20px;
+
 }
 .big_butt{
 	display: flex;

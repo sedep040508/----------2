@@ -12,7 +12,7 @@ function outNum(num, elem){
         }
         i.innerHTML = n;
     },t);
-
+    
 }
 
 outNum(200, '.num');
