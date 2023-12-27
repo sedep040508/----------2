@@ -92,6 +92,19 @@
 		content: '';
 		background: #fff;
 		position: absolute;
+		width: 100%;
+		height: 2%;
+		left: 0;
+	 }
+	 .menu::before{
+		top: 0;
+	 }
+	 .menu::after{
+		bottom: 0;
+	 }
+	 .menu li{
+		position: absolute;
+		background-color: #fff;
 		
 	 }
     }
