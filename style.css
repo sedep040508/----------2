@@ -165,13 +165,6 @@ justify-content: flex-end;
 align-items: center;
 gap: 24px;
 }
-.h__right{
-transform: scale(1);
-box-shadow: 0 0 5px 5px rgba(34, 60, 80, 0.2);
-transition: box-shadow 0.5s, transform 0.5s;
-}
-.h__right:hover { transform: scale(1.2); box-shadow: 0 0 15px 7px rgba(34, 60, 80, 0.2); transition: box-shadow 0.5s, transform 0.5s; -webkit-transform: scale(1.2); -moz-transform: scale(1.2); -ms-transform: scale(1.2); -o-transform: scale(1.2);
-}
 .btn{
 	color: #090909;
 text-align: center;
