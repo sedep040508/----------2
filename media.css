@@ -81,8 +81,18 @@
 		width: 400px;
 		text-align: center;
 	 }
+	 .menu{
+		display: block;
+		position: relative;
+		width: 30px;
+		height: 20px;
+	 }
+	 .menu::before,
+	 .menu::after{
+		content: '';
+		background: #fff;
+		position: absolute;
+		
+	 }
     }
-}
-@media  screen and (max-width: 1400px){
-	
 }
