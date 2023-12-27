@@ -346,7 +346,12 @@ align-items: flex-start;
 gap: 56px;
 }
 .card_txt{
-	
+	color: #FF9C08;
+text-align: center;
+font-size: 60px;
+font-style: normal;
+font-weight: 700;
+line-height: 79.98px; /* 133.3% */
 }
 .s_orange{
 	color: #FF9C08;
