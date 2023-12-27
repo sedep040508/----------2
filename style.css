@@ -345,6 +345,9 @@ justify-content: center;
 align-items: flex-start;
 gap: 56px;
 }
+.card_txt{
+	
+}
 .s_orange{
 	color: #FF9C08;
 font-size: 20px;
