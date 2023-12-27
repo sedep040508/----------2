@@ -296,6 +296,15 @@ gap: 72px;
 	max-width: 284px;
 	display: flex;
 }
+.counter{
+	color: #F0A446;
+	  font-family: "Roboto";
+	  font-size: 60px;
+	  font-style: normal;
+	  font-weight: 700;
+	  line-height: 78px;
+	  margin-bottom: 13px;
+  }
 .num{
 	color: #090909;
 	text-align: center;
