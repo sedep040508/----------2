@@ -19,13 +19,17 @@
                     <div class="header_burger">
                         <span></span>
                     </div>
-                    <nav>
-                        <ul class="menu">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Pages</a></li>
+                    <div class="hamburger-menu">
+                        <input id="menu__toggle" type="checkbox" />
+                        <label class="menu__btn" for="menu__toggle">
+                          <span></span>
+                        </label>
+                        <ul class="menu__box">
+                          <li><a class="menu__item" href="#">Home</a></li>
+                          <li><a class="menu__item" href="#">About</a></li>
+                          <li><a class="menu__item" href="#">Pages</a></li>
                         </ul>
-                    </nav>
+                      </div>
                 </div>
                 <div class="h_right">
                     <div class="imgi">
@@ -151,9 +155,12 @@
                     <div class="look_cards">
                         <div class="card">
                             <div class="icon"></div>
-                            <div class="look_text">
-                                <h3 class="som">500m</h3>
-                                <p class="liters">Liters of water</p>
+                            <div class="card_text">
+                                <div class="lit flex">
+                                    <div class="counter_look" data-to="500" data-stop="0">0</div>
+                                    <h2 class="card_txt">m</h2>
+                                </div>
+                                <p class="card_tit">Collaborators</p>
                             </div>
                         </div>
                         <div class="card">
