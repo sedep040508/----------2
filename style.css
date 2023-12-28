@@ -639,6 +639,9 @@ font-style: normal;
 font-weight: 700;
 line-height: 44.004px;
 }
+.lit{
+	display: flex;
+}
 .liters{
 	color: #6E6E6E;
 font-size: 18px;
@@ -1161,8 +1164,13 @@ margin-left: 20px;
 	width: 60px;
 }
 .counter_look{
-
+	color: #090909;
+font-size: 38px;
+font-style: normal;
+font-weight: 700;
+line-height: 44.004px;
 }
 .card_txt_look{
-	
+	margin-top: 15px;
+	font-size: 35px;
 }
