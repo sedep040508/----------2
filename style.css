@@ -19,9 +19,6 @@ img {
 	content: "";
 	display: table;
 }
-
-.h__right {}
-
 a {
 	color: inherit;
 	text-decoration: none;
@@ -342,7 +339,7 @@ section {
 	transform: translate(-50%, -50%);
 }
 
-.h_tit {
+.help_tit {
 	max-width: 603px;
 	color: #090909;
 	font-family: Roboto;
@@ -353,7 +350,7 @@ section {
 	/* 133.3% */
 }
 
-.h_txt {
+.help_txt {
 	max-width: 597px;
 	color: #6E6E6E;
 	font-size: 24px;
@@ -538,7 +535,7 @@ section {
 	margin-top: 90px;
 }
 
-hr {
+hr{
 	margin-bottom: 50px;
 }
 
@@ -569,14 +566,6 @@ hr {
 	justify-content: center;
 	align-items: flex-end;
 	gap: 48.281px;
-}
-
-.btns1 {
-	display: flex;
-	padding-left: 235px;
-	justify-content: flex-end;
-	align-items: flex-start;
-	gap: 28px;
 }
 
 .btn3 {
@@ -818,14 +807,13 @@ footer .container {
 	max-width: 752px;
 	margin-bottom: 38px;
 }
-
-.btns2 {
+.
+.btns{
 	margin-left: 500px;
 	display: flex;
 	gap: 28px;
 	margin-bottom: 65px;
 }
-
 .o_tit {
 	color: #090909;
 	font-size: 24px;
@@ -969,19 +957,9 @@ footer .container {
 	font-weight: 700;
 	line-height: 58.002px;
 	/* 138.1% */
-}
-
-.btn4 {
-	color: white;
-	align-items: center;
-	justify-content: center;
-	display: flex;
-	border-radius: 10px;
-	background: #090909;
-	width: 180px;
-	height: 71px;
-	flex-shrink: 0;
-	transition: 0.3s;
+}.yellow .btn1{
+	background: #000;
+	color:white;
 }
 
 .btn4:hover {
@@ -1159,13 +1137,11 @@ h1 {
 	max-width: 1220px;
 	margin-top: 300px;
 }
-
-.btns4 {
+.see .btns{
 	display: flex;
 	gap: 28px;
 	margin-left: 420px;
 }
-
 footer {
 	background: #FEF9F2;
 }
