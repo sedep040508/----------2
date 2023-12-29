@@ -5,6 +5,42 @@
 	.over_text{
 		font-size: 20px;
 		line-height: 38.002px;
-
+	}
+}
+@media screen and (max-width: 600px){
+	.cards{
+		justify-content: center;
+	}
+	.r_tit{
+		font-size: 30px;
+	}
+	.white1{
+		width: 200;
+		height: 200px;
+		margin-left: 20px;
+	}
+	.white.btn{
+		width: 83px;
+		height: 28px;
+	}
+	.white_txt{
+		font-size: 13px;
+	}
+	.white_tit{
+		font-size: 15px;
+	}
+	.read .btn1{
+		width: 150px;
+		height: 51px;
+	}
+	.read .btn2{
+		width: 220px;
+		height: 53px;
+	}
+	.wh_btn{
+		display: none;
+	}
+	.white{
+		height: 350px;
 	}
 }
