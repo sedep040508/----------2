@@ -715,7 +715,9 @@ hr {
 .look_cards {
 	margin-bottom: 77px;
 }
-
+.comm .btn1{
+	margin-left: 270px;
+}
 .comm .container {
 	max-width: 1290px;
 }
@@ -869,7 +871,6 @@ footer .container {
 
 .over_buttom {
 	height: 200px;
-
 }
 
 .comm {

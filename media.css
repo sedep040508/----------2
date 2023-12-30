@@ -43,4 +43,53 @@
 	.white{
 		height: 350px;
 	}
+	.over_text{
+		font-size: 23px;
+		line-height: 38.002px;
+	}
+	.o_t{
+		padding-top: 70px;
+	}
+	.o_text{
+		font-size: 10px;
+	}
+	.help_tit{
+		font-size: 40px;
+	}
+	.help_txt{
+		font-size: 20px;
+	}
+	.help .btn1{
+		width: 150px;
+		height: 51px;
+	}
+	.help .btn2{
+		width: 220px;
+		height: 53px;
+	}
+	.help .btns{
+		margin-bottom: 30px;
+	}
+	.support .btns{
+		margin-top: 40px;
+		margin-right: 90px;
+	}
+	.over .btn1{
+		width: 150px;
+		height: 51px;
+	}
+	.over .btn2{
+		width: 220px;
+		height: 53px;
+	}
+	.yellow .btns{
+		margin-top: 60px;
+	}
+	.see .btn1{
+		width: 150px;
+		height: 51px;
+	}
+	.help__right{
+		margin-left: 50px;
+	}
 }
