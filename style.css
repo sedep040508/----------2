@@ -1040,8 +1040,7 @@ h1 {
 		width: 100%;
 	}
 }
-
-.white {
+.white{
 	max-width: 388px;
 	height: 298px;
 	flex-shrink: 0;
