@@ -810,7 +810,14 @@ footer .container {
 .img_center img {
 	border-radius: 65px;
 }
-
+.about__play{
+	width: 180px;
+	height: 180px;
+	flex-shrink: 0;
+	position: absolute;
+	border-radius: 50px;
+	
+}
 .over_tit {
 	color: #090909;
 	text-align: center;
