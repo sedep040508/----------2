@@ -409,7 +409,15 @@ section {
 	box-shadow: 0 0 15px 7px rgba(34, 60, 80, 0.2);
 	transition: box-shadow 0.5s, transform 0.5s; */
 }
-
+input{
+	background: none;
+	border:none;
+	transition: 0.4s;
+	width: 0;
+}
+button{
+	
+}
 .btn2 {
 	transition: 0.5s;
 	width: 225px;
