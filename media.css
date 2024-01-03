@@ -67,7 +67,16 @@
 		font-size: 35px;
 	}
 	.comm .btn1{
-	
+		display: none;
+	}
+	.y_tit{
+		font-size: 34px;
+		margin-top: 50px;
+		margin-left: 60px;
+	}
+	.over_text{
+		font-size: 30px;
+    	line-height: 40px;
 	}
 }
 @media screen and (max-width: 600px){
