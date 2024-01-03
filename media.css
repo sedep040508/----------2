@@ -63,6 +63,9 @@
 	.support .btns{
 		margin-right: 100px;
 	}
+	.c_tit{
+		font-size: 35px;
+	}
 }
 @media screen and (max-width: 600px){
 	
