@@ -811,14 +811,13 @@ footer .container {
 .img_center img {
 	border-radius: 65px;
 }
-/* .about__play{
-	width: 180px;
-	height: 180px;
-	flex-shrink: 0;
+.about__play{
+	width: 280px;
 	position: absolute;
-	border-radius: 50px;
-
-} */
+	margin-top: -20%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
 .over_tit {
 	color: #090909;
 	text-align: center;
