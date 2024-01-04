@@ -2,9 +2,9 @@
 	.cards{
 		justify-content: center;
 	}
-	.but_right{
+	/* .but_right{
 		flex-wrap: wrap;
-	}
+	} */
 }
 @media screen and (max-width: 895px){
 	.help_tit{
@@ -18,12 +18,8 @@
 		width: 100px;
 		margin-top: 30px;
 	}
-	.help .btn1{
-		width: 150px;
-		height: 51px;
-	}
-	.help .btn2{
-		width: 160px;
+	.btn3{
+		width: 140px;
 		height: 51px;
 	}
 	.help_txt{
@@ -51,9 +47,9 @@
 	.img2{
 		width: 500px;
 	}
-	.flex{
+	/* .flex{
 		justify-content: center;
-	}
+	} */
 	.humans{
 		height: 416px;
 	}
@@ -77,6 +73,69 @@
 	.over_text{
 		font-size: 30px;
     	line-height: 40px;
+	}
+	.btn1{
+		width: 150px;
+		height: 51px;
+	}
+	.btn2{
+		width: 160px;
+		height: 51px;
+	}
+	.txt_white{
+		font-size: 15px;
+	}
+	.white{
+		width: 400px;
+	}
+	.see_tit{
+		font-size: 32px;
+	}
+	.r_tit{
+		font-size: 32px;
+	}
+	.read_img{
+		display: block;
+	}
+	.img_read1{
+		margin-bottom: 250px;
+	}
+	.footer_big{
+		display: block;
+	}
+	footer{
+		height: 1500px;
+	}
+	.f_left{
+		margin-left: 140px;
+	}
+	.big_butt{
+		display: block;
+	}
+	.f_center{
+		margin-left: 150px;
+		margin-top: -100px;
+	}
+	.but_text{
+		font-size: 15px;
+	}
+	.but_txt{
+		font-size: 15px;
+	}
+	.footer_buttom{
+		margin-top: 500px;
+	}
+	.f_right{
+		margin-top: -100px;
+	}
+	.butt_left{
+		margin-bottom: 40px;
+	}
+	hr{
+		display: none;
+	}
+	.o_t{
+		display: block;
 	}
 }
 @media screen and (max-width: 600px){
