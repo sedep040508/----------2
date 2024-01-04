@@ -818,6 +818,9 @@ footer .container {
 	left: 50%;
 	transform: translate(-50%,-50%);
 }
+.about__play--hidden{
+	display: none;
+}
 .over_tit {
 	color: #090909;
 	text-align: center;
