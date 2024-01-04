@@ -136,9 +136,10 @@
 	}
 	.o_t{
 		display: block;
+		padding-top: 30px;
 	}
 	.o_text{
-		
+		margin-bottom: 40px;
 	}
 }
 @media screen and (max-width: 600px){
