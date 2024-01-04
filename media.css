@@ -71,7 +71,7 @@
 		margin-left: 60px;
 	}
 	.over_text{
-		font-size: 30px;
+		font-size: 25px;
     	line-height: 40px;
 	}
 	.btn1{
@@ -136,6 +136,9 @@
 	}
 	.o_t{
 		display: block;
+	}
+	.o_text{
+		
 	}
 }
 @media screen and (max-width: 600px){
