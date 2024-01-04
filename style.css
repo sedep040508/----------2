@@ -430,6 +430,7 @@ section {
 	transform: scale(1);
 	box-shadow: 0 0 5px 5px rgba(34, 60, 80, 0.2);
 	transition: box-shadow 0.5s, transform 0.5s;
+	
 }
 
 .btn2:hover {
@@ -599,7 +600,7 @@ hr {
 	height: 73px;
 	border-radius: 10px;
 	border: 1px solid #F0ECE8;
-	transition: 0.3s;
+	transition: 0.5s;
 	background: #FFF;
 	box-shadow: 0px 4px 10px 0px rgba(43, 43, 43, 0.04);
 	transform: scale(1);
@@ -609,12 +610,12 @@ hr {
 
 .btn3:hover {
 	background: #000;
-	border: 2px solid white;
+
 	color: #FFF;
-	font-size: 20px;
+	/* font-size: 20px;
 	transform: scale(1.2);
 	box-shadow: 0 0 15px 7px rgba(34, 60, 80, 0.2);
-	transition: box-shadow 0.5s, transform 0.5s;
+	transition: box-shadow 0.5s, transform 0.5s; */
 }
 
 .sr_txt {
@@ -931,7 +932,7 @@ footer .container {
 	background: #FFF;
 	display: inline-block;
 	box-shadow: 0px 2px 12px 0px rgba(43, 43, 43, 0.06);
-	transition: 0.3ms;
+	transition: 0.3s;
 }
 
 .card1:hover {
