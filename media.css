@@ -15,6 +15,11 @@
 @media screen and (max-width: 795px){
 	.help_tit{
 		font-size: 40px;
+		margin-top: -20px;
+	}
+	.help__left{
+		margin-top: -100px;
+		margin-right: 50px;
 	}
 	.h_right{
 		flex-direction: column-reverse;
@@ -46,13 +51,6 @@
 	}
 	.s_tit{
 		font-size: 34px;
-	}
-	.img1{
-		width: 450px;
-		height: 400px;
-	}
-	.img2{
-		width: 500px;
 	}
 	/* .flex{
 		justify-content: center;
@@ -157,9 +155,11 @@
 	.general{
 		margin-top: -50px;
 		gap: 5px;
+		display: block;
+		margin-left: 30%;
 	}
 	.card_tit{
-		margin-right: 100px;
+		margin-right: 300px;
 		font-size: 15px;
 	}
 	.counter{
@@ -167,5 +167,44 @@
 	}
 	.card_txt{
 		font-size: 40px;
+	}
+	.help_tit{
+		font-size: 35px;
+		margin-top: -20px;
+	}
+	.help__left{
+		margin-top: -100px;
+		margin-right: 50px;
+	}
+	.orange{
+		width: 100px;
+	}
+	.s_orange{
+		font-size: 15px;
+	}
+	.s_tit{
+		font-size: 27px;
+		line-height: 38.002px
+	}
+	.s_txt{
+		font-size: 15px;
+	}
+	.btn1{
+		height: 41px;
+		width: 130px;
+	}
+	.btn2{
+		height: 41px;
+		width: 140px;
+	}
+	.btn3{
+		width: 120px;
+		height: 41px;
+	}
+	.b_look{
+		display: block;
+	}
+	.counter_look{
+		font-size: 32px;
 	}
 }
