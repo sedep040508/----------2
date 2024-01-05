@@ -811,6 +811,17 @@ footer .container {
 .img_center img {
 	border-radius: 65px;
 }
+.about_video{
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+.about_video video{
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
 .about__play{
 	width: 280px;
 	position: absolute;

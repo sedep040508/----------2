@@ -62,10 +62,10 @@
 
 
 
-//  const play = document.querySelector('.about__play')     
-//  const video = document.querySelector('.about_video iframe')
+ const play = document.querySelector('.about__play')     
+ const video = document.querySelector('.about_video iframe')
 
-//  play.addEventListener('click', () => {
-//   video.play();
-//   play.classList.add('about__play--hidden');
-//  })
+ play.addEventListener('click', () => {
+  video.play();
+  play.classList.add('about__play--hidden');
+ })
