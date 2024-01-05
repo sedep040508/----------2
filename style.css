@@ -799,7 +799,7 @@ footer .container {
 }
 
 .l_right {
-	width: 584px;
+	max-width: 584px;
 }
 
 .over {
@@ -1179,11 +1179,6 @@ footer .container {
 	line-height: 19.998px;
 	margin-left: 49px;
 	transition: 0.3s;
-}
-
-.wh_btn:hover {
-	border: 2px solid #2c2f24;
-	text-align: center;
 }
 
 .read_buttom {

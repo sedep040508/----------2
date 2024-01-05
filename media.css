@@ -207,4 +207,40 @@
 	.counter_look{
 		font-size: 32px;
 	}
+	.card_txt_look{
+		font-size: 25px;
+	}
+	.look .btn1{
+		margin-top: -50px;
+		margin-bottom: 40px;
+	}
+	.c_tit{
+		font-size: 30px;
+	}
+	.y_tit{
+		font-size: 28px;
+		line-height: 38.002px;
+		max-width: 350px;
+		margin-bottom: 25px;
+		margin-top: 100px;
+	}
+	.big_see{
+		display: block;
+	}
+	.white{
+		width: 260px;
+		margin-left: 180px;
+	}
+	.white1{
+		width: 400px;
+	}
+	.white_tit{
+		font-size: 20px;
+	}
+	footer{
+		width: 600px;
+	}
+	body{
+		justify-content: center;
+	}
 }
