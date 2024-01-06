@@ -237,10 +237,22 @@
 	.white_tit{
 		font-size: 20px;
 	}
-	footer{
-		width: 600px;
+	.f_left{
+		margin-left: 30px;
 	}
-	body{
-		justify-content: center;
+	.f_center{
+		margin-left: 50px;
+	}
+	.f_right{
+		margin-left: 0;
+	}
+	.but_text{
+		font-size: 12px;
+	}
+	.but_txt a{
+		font-size: 12px;
+	}
+	.but_right{
+		margin-left: 0;
 	}
 }
