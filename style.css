@@ -404,22 +404,21 @@ section {
 	height: 71px;
 	border-radius: 10px;
 	background: #FF9C08;
-	transition: 0.5s;
+	transition: 0.3s;
 	transform: scale(1);
 	box-shadow: 0 0 5px 5px rgba(34, 60, 80, 0.2);
 	transition: box-shadow 0.5s, transform 0.5s;
-
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-ms-transition: 0.3s;
+	-o-transition: 0.3s;
 }
 
 .btn1:hover {
 	background: #fff;
-	/* font-size: 20px;
-	transform: scale(1.2);
-	box-shadow: 0 0 15px 7px rgba(34, 60, 80, 0.2);
-	transition: box-shadow 0.5s, transform 0.5s; */
 }
 .btn2 {
-	transition: 0.5s;
+	transition: 0.3s;
 	width: 225px;
 	height: 73px;
 	border-radius: 10px;
@@ -434,7 +433,10 @@ section {
 	transform: scale(1);
 	box-shadow: 0 0 5px 5px rgba(34, 60, 80, 0.2);
 	transition: box-shadow 0.5s, transform 0.5s;
-	
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-ms-transition: 0.3s;
+	-o-transition: 0.3s;
 }
 
 .btn2:hover {
@@ -516,15 +518,45 @@ section {
 
 .support {
 	background: #FEF9F2;
+	/* margin-top: 70px;
+	margin-left: 70px; */
 }
-
+.over .btn1{
+	background: #000;
+	color:white;
+}
+.over .btn1:hover{
+	background: white;
+	color: #000;
+}
+.over .btn1:hover{
+	background: white;
+}
 .s_left {
 	flex-direction: column;
 	justify-content: center;
 	align-items: flex-start;
 	gap: 56px;
 }
+footer .btns{
+	display: block;
+}
+footer .btn1{
+	transition: 0.3s;
+	margin-bottom: 12px;
+	background: #000;
+	color: white;
+	width: 292px;
+	height: 71px;
+}
+footer .btn1:hover{
+	color:#000;
+}
 
+footer .btn2{
+	width: 292px;
+	height: 71px;
+}
 .card_txt {
 	color: #FF9C08;
 	text-align: center;
@@ -605,12 +637,16 @@ hr {
 	height: 73px;
 	border-radius: 10px;
 	border: 1px solid #F0ECE8;
-	transition: 0.5s;
+	transition: 0.3s;
 	background: #FFF;
 	box-shadow: 0px 4px 10px 0px rgba(43, 43, 43, 0.04);
 	transform: scale(1);
 	box-shadow: 0 0 5px 5px rgba(34, 60, 80, 0.2);
 	transition: box-shadow 0.5s, transform 0.5s;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-ms-transition: 0.3s;
+	-o-transition: 0.3s;
 }
 
 .btn3:hover {
