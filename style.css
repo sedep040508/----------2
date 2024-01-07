@@ -324,8 +324,8 @@ section {
 }
 
 .help__right {
-	flex: 0 0 50%;
 	margin-top: -100px;
+	margin-left: 28px;
 }
 .help__right img{
 	filter:brightness(100%);
@@ -448,7 +448,7 @@ section {
 .humans {
 	background: #FEF9F2;
 	height: 316px;
-	margin-top: -160px;
+	margin-top: -120px;
 }
 
 .general {
@@ -459,6 +459,7 @@ section {
 	justify-content: space-around;
 	align-items: flex-start;
 	gap: 72px;
+	margin-left: 110px;
 }
 
 .numbers {
@@ -518,8 +519,12 @@ section {
 
 .support {
 	background: #FEF9F2;
-	/* margin-top: 70px;
-	margin-left: 70px; */
+}
+.support .btns{
+	margin-top: 50px;
+}
+.img3{
+	margin-top: -55px;
 }
 .over .btn1{
 	background: #000;
@@ -737,6 +742,8 @@ hr {
 
 .support .flex {
 	flex-wrap: wrap;
+	margin-top: 60px;
+	margin-left: 20px;
 }
 
 .look {
@@ -751,6 +758,7 @@ hr {
 	align-items: center;
 	gap: 40px;
 	flex-wrap: wrap;
+	margin-top: 70px;
 }
 
 .look_cards {
@@ -773,8 +781,17 @@ hr {
 
 .l_left {
 	max-width: 520px;
+	margin-top: 30px;
 }
-
+.look img{
+	margin-left: 40px;
+}
+.card:nth-child(2){
+	margin-left: 95px;
+}
+.card:nth-child(4){
+	margin-left: 90px;
+}
 footer .container {
 	max-width: 1220px;
 }
@@ -837,6 +854,7 @@ footer .container {
 
 .l_right {
 	max-width: 584px;
+	margin-left: 40px;
 }
 
 .over {
@@ -844,6 +862,8 @@ footer .container {
 	background: #FFD4A4;
 }
 .about_video{
+	max-width: 1220px;
+	margin-left: 100px;
 	position: relative;
 	width: 100%;
 	overflow: hidden;
@@ -872,6 +892,9 @@ footer .container {
 	height: 100%;
 	object-fit: cover;
 }
+.over_top{
+	margin-top: 90px;
+}
 .over_tit {
 	color: #090909;
 	text-align: center;
@@ -896,7 +919,9 @@ footer .container {
 	max-width: 752px;
 	margin-bottom: 38px;
 }
-
+.o_text{
+	margin-top: 50px;
+}
 .btns{
 	margin-left: 50px;
 	display: flex;
@@ -951,6 +976,8 @@ footer .container {
 	justify-content: center;
 	align-items: flex-start;
 	gap: 64px;
+	margin-top: 140px;
+	margin-left: 15px;
 }
 
 .c_buttom .cards {
@@ -1109,7 +1136,9 @@ footer .container {
 	margin-left: 300px;
 	margin-top: -200px;
 }
-
+.see_right{
+	margin-top: -180px;
+}
 .see_txt {
 	color: #6E6E6E;
 	font-size: 17px;
@@ -1387,6 +1416,7 @@ footer {
 .footer_buttom {
 	width: 1220px;
 	height: 101px;
+	/* margin-top: -100px; */
 }
 
 .butt_left {

@@ -148,7 +148,6 @@
 	}
 	.about__play{
 		width: 100px;
-		margin-left: 30px;
 	}
 }
 @media screen and (max-width: 500px){
@@ -164,6 +163,13 @@
 	}
 	.counter{
 		font-size: 40px;
+	}
+	.see_right{
+		margin-top: 0;
+	}
+	.see_tit{
+		font-size: 28px;
+		line-height: 35px;
 	}
 	.card_txt{
 		font-size: 40px;
@@ -216,6 +222,12 @@
 	}
 	.c_tit{
 		font-size: 30px;
+	}
+	.look_cards{
+		margin-left: 20%;
+	}
+	.about_video{
+		margin-left: 0;
 	}
 	.y_tit{
 		font-size: 28px;
