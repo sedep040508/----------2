@@ -181,7 +181,9 @@ section {
 	display: flex;
 	gap: 15px;
 }
-
+.menu_box{
+	z-index: 100;
+}
 #menu__toggle {
 	opacity: 0;
 }
@@ -730,6 +732,10 @@ hr {
 .look {
 	margin-top: 100px;
 	margin-bottom: 100px;
+	overflow:hidden;
+overflow-y:hidden;  /*для вертикального*/
+overflow-x:hidden;  /*для горизонтального*/
+
 }
 
 .b_look {
@@ -1298,7 +1304,6 @@ footer {
 }
 .f_orange {
 	margin-top: 175px;
-	/* margin-left: 60px; */
 	width: 388px;
 	height: 364px;
 	flex-shrink: 0;
