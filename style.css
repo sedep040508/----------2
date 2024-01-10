@@ -385,6 +385,7 @@ section {
 .btns {
 	display: flex;
 	gap: 28px;
+	z-index: 10;
 }
 
 .stul_btn {
@@ -416,6 +417,7 @@ section {
 
 .btn1:hover {
 	background: #fff;
+	color:#000;
 }
 .btn2 {
 	transition: 0.3s;
@@ -811,19 +813,19 @@ footer .container {
 .icon {
 	width: 76px;
 	height: 76px;
-	background: url(/img/IMAGE\ \(5\).svg)
+	background: url(./img/IMAGE\ \(5\).svg)
 }
 
 .icon1 {
 	width: 76px;
 	height: 76px;
-	background: url(/img/IMAGE\ \(6\).svg)
+	background: url(./img/IMAGE\ \(6\).svg)
 }
 
 .icon2 {
 	width: 76px;
 	height: 76px;
-	background: url(/img/IMAGE\ \(7\).svg)
+	background: url(./img/IMAGE\ \(7\).svg)
 }
 
 .icon3 {
@@ -928,7 +930,6 @@ footer .container {
 	gap: 28px;
 	margin-bottom: 65px;
 }
-
 .o_tit {
 	color: #090909;
 	font-size: 24px;
@@ -1019,11 +1020,13 @@ footer .container {
 	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
 }
 
-.c_img {
-	max-width: 172px;
-	margin-top: 50px;
-	margin-left: 100px;
-	margin-bottom: 27px;
+.c_img { 
+	width: 172px;
+height: 172px;
+margin-left: 108px;
+margin-top: 57px;
+margin-bottom: 24px;
+background: url(./img/card.svg);
 }
 
 .cm_tit {
@@ -1076,11 +1079,10 @@ footer .container {
 	/* 138.1% */
 }
 
-.yellow .btn1 {
+/* .btn1 {
 	background: #000;
 	color: white;
-}
-
+} */
 .yellow .btns {
 	margin: 0;
 }
