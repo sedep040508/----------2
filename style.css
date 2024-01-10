@@ -171,7 +171,7 @@ section {
 
 .h_left {
 	display: flex;
-	padding: 32px 110px 43px 110px;
+	padding: 32px 43px;
 	justify-content: center;
 	align-items: flex-start;
 	gap: 40px;
@@ -189,12 +189,12 @@ section {
 .menu__btn {
 	display: flex;
 	align-items: center;
-	margin-top: -15px;
 	position: fixed;
 	top: 20px;
 	left: 20px;
 	width: 26px;
 	height: 26px;
+	margin-top: -15px;
 	cursor: pointer;
 	z-index: 1;
 	position: relative;
@@ -286,7 +286,6 @@ section {
 
 .h_right {
 	display: flex;
-	padding-left: 32px;
 	justify-content: flex-end;
 	align-items: center;
 	gap: 24px;
@@ -322,30 +321,21 @@ section {
 	display: flex;
 	flex-wrap: wrap;
 }
-
-.help__right {
-	margin-top: -100px;
-	margin-left: 28px;
-}
-.help__right img{
-	filter:brightness(100%);
-}
 .help__left {
 	flex: 0 0 50%;
 }
 
 .big .btns {
 	margin: 0;
-	margin-left: 120px;
 }
 
 .orange {
-	margin-left: 110px;
+	/* margin-left: 110px; */
 	width: 140px;
 	height: 4px;
 	border-radius: 99999px;
 	background: #FF9C08;
-	margin-bottom: 29px;
+	margin-bottom: 130px;
 }
 
 .img__center {
@@ -361,18 +351,15 @@ section {
 .help_tit {
 	max-width: 603px;
 	color: #090909;
-	margin-left: 110px;
-	margin-top: 130px;
 	font-size: 60px;
 	font-style: normal;
 	font-weight: 700;
 	line-height: 79.98px;
+	margin-bottom: 30px;
 	/* 133.3% */
 }
 
 .help_txt {
-	margin-left: 120px;
-	margin-top: 20px;
 	max-width: 597px;
 	color: #6E6E6E;
 	font-size: 24px;
@@ -461,7 +448,6 @@ section {
 	justify-content: space-around;
 	align-items: flex-start;
 	gap: 72px;
-	margin-left: 110px;
 }
 
 .numbers {
@@ -737,15 +723,8 @@ hr {
 	max-width: 26px;
 	height: 26px;
 }
-
-.support .container {
-	max-width: 1270px;
-}
-
 .support .flex {
 	flex-wrap: wrap;
-	margin-top: 60px;
-	margin-left: 20px;
 }
 
 .look {
@@ -765,9 +744,6 @@ hr {
 
 .look_cards {
 	margin-bottom: 77px;
-}
-.comm .btn1{
-	margin-left: 270px;
 }
 .comm .container {
 	max-width: 1290px;
@@ -865,11 +841,10 @@ footer .container {
 }
 .about_video{
 	max-width: 1220px;
-	margin-left: 100px;
+	margin: 0 auto 30px;
 	position: relative;
 	width: 100%;
 	overflow: hidden;
-	margin-bottom: 30px;
 }
 .about_video video{
 	display: block;
@@ -1138,9 +1113,9 @@ background: url(./img/card.svg);
 	margin-left: 300px;
 	margin-top: -200px;
 }
-.see_right{
+/* .see_right{
 	margin-top: -180px;
-}
+} */
 .see_txt {
 	color: #6E6E6E;
 	font-size: 17px;
@@ -1416,7 +1391,7 @@ footer {
 }
 
 .footer_buttom {
-	width: 1220px;
+	max-width: 1220px;
 	height: 101px;
 	/* margin-top: -100px; */
 }
@@ -1481,4 +1456,9 @@ footer {
 .card_txt_look {
 	margin-top: 15px;
 	font-size: 35px;
+}
+
+.yellow{
+	overflow: hidden;
+	position: relative;
 }
