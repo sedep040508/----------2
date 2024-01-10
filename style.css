@@ -1113,9 +1113,7 @@ background: url(./img/card.svg);
 	margin-left: 300px;
 	margin-top: -200px;
 }
-/* .see_right{
-	margin-top: -180px;
-} */
+
 .see_txt {
 	color: #6E6E6E;
 	font-size: 17px;
@@ -1301,7 +1299,6 @@ footer {
 
 .f_center {
 	padding-top: 175px;
-	margin-left: 50px;
 }
 
 .f_orange {
