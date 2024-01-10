@@ -1263,7 +1263,6 @@ footer {
 
 .f_c1 {
 	max-width: 149px;
-	height: 364px;
 }
 
 .c_tit {
@@ -1293,9 +1292,6 @@ footer {
 	gap: 22px;
 }
 
-.f_c2 {
-	height: 364px;
-}
 
 .f_center {
 	padding-top: 175px;
