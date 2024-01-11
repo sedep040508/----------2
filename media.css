@@ -267,7 +267,7 @@
 		display: none;
 	}
 }
-@media screen and (max-width: 500px){
+@media screen and (max-width: 550px){
 	.general{
 		margin-top: -50px;
 		gap: 5px;

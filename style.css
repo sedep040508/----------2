@@ -145,6 +145,8 @@ section {
 	width: 100%;
 	padding: 14px 0;
 	transition: 0.3s;
+	margin-top: -10px;
+	width: 130px;
 }
 
 .btn:hover {
@@ -170,6 +172,7 @@ section {
 	width: 100%;
 	height: 75px;
 	background: #b39352;
+	z-index: 100;
   }
   
   .header__wrap {
@@ -189,11 +192,12 @@ section {
 
   .menu > li > a {
 	text-decoration: none;
+	margin-top: -10px;
 	
   }
   .header__wrap .menu {
 	display: flex;
-	margin-right: 900px;
+	margin-right: 800px;
   }
   
   .header__wrap .menu > li {
