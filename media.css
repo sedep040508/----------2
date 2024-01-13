@@ -136,6 +136,7 @@
 	.humans{
 		height: 416px;
 	}
+	
 	.s_left{
 		margin-bottom: 45px;
 	}
@@ -163,6 +164,7 @@
 		margin-left: 60px;
 	}
 	.over_text{
+
 		font-size: 25px;
     	line-height: 40px;
 		margin-left: 0;
@@ -198,9 +200,6 @@
 	}
 	.f_right .btns{
 		margin-left: 50px;
-	}
-	footer{
-		height: 1500px;
 	}
 	.f_left{
 		margin-left: 140px;
@@ -255,7 +254,7 @@
 	}
 	.o_t{
 		display: block;
-		padding-top: 30px;
+		padding-top: 130px;
 	}
 	.o_text{
 		margin-bottom: 40px;
@@ -278,6 +277,12 @@
 		margin-right: 300px;
 		font-size: 15px;
 	}
+	.over_text{
+		font-size: 20px;
+	}
+	.over_tit{
+		font-size: 15px;
+	}
 	.counter{
 		font-size: 40px;
 	}
@@ -295,6 +300,12 @@
 	.over{
 		height: 800px;
 	}
+	.o_tit{
+		font-size: 18px;
+	}
+	.o_txt{
+		font-size: 14px;
+	}
 	.s_text{
 		margin-right: 100px;
 	}
@@ -308,13 +319,15 @@
 		margin-right: 100px;
 	}
 	.c_img{
-		
+		display: none;
 	}
 	.cm_tit{
-		font-size: 20px;
+		font-size: 18px;
+		margin-top: 90px;
 	}
 	.cm_txt{
-		font-size: 15px;
+		font-size: 12px; 
+		margin-left: 0;
 	}
 	.card_txt{
 		font-size: 40px;
@@ -344,8 +357,15 @@
 		height: 41px;
 		width: 130px;
 	}
-	.look_img{
+	.look img{
 		margin-left: 0;
+		width: 280px;
+		height: 320px;
+	}
+	.card1{
+		/* max-width: 388px; */
+		width: 250px;
+		height: 290px;
 	}
 	.btn2{
 		height: 41px;
@@ -369,7 +389,7 @@
 		margin-bottom: 40px;
 	}
 	.c_tit{
-		font-size: 30px;
+		font-size: 25px;
 	}
 	.card:nth-child(2){
 		margin-left: 0;
@@ -393,9 +413,7 @@
 	.wh_btn{
 		font-size: 15px;
 	}
-	.big_see{
-		display: block;
-	}
+
 	.white1{
 		width: 300px;
 		height: 250px;

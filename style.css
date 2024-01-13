@@ -160,7 +160,23 @@ section {
 .link:hover {
 	box-shadow: 0px 6px 5px 2px #836A36;
 }
-
+/* .pop-block div {
+	color: white;
+  }
+.close-block {
+  width: 32px;
+  height: 32px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(./img/cross.svg);
+  cursor: pointer;
+}
+#pop-checkbox {
+  display: none;
+}
+#pop-checkbox:checked + .pop-block {
+  display: none;
+} */
 .flex {
 	display: flex;
 	gap: 20px;
@@ -376,6 +392,7 @@ section {
 }
 .help__left {
 	flex: 0 0 50%;
+	margin-top: 90px;
 }
 
 .big .btns {
@@ -583,6 +600,7 @@ section {
 	justify-content: center;
 	align-items: flex-start;
 	gap: 56px;
+	margin-top: 70px;
 }
 footer .btns{
 	display: block;
@@ -637,7 +655,7 @@ footer .btn2{
 }
 
 .hr {
-	margin-top: 90px;
+	margin-top: 90px; 
 }
 
 hr {
@@ -671,6 +689,7 @@ hr {
 	justify-content: center;
 	align-items: flex-end;
 	gap: 48.281px;
+	margin-top: 40px;
 }
 
 .btn3 {
@@ -775,7 +794,7 @@ hr {
 .img4 {
 	width: 26px;
 	height: 26px;
-	background: url(/img/galochka.svg);
+	background: url(./img/galochka.svg);
 }
 .support .flex {
 	flex-wrap: wrap;
@@ -784,8 +803,9 @@ hr {
 .look {
 	margin-top: 100px;
 	margin-bottom: 100px;
-	overflow:hidden;
-overflow-x:hidden;  /*для горизонтального*/
+
+	/* overflow:hidden;
+overflow-x:hidden;  для горизонтального */
 
 }
 
@@ -819,7 +839,7 @@ overflow-x:hidden;  /*для горизонтального*/
 	margin-top: 30px;
 }
 .look img{
-	margin-right: 40px;
+	margin-right: 45px;
 }
 .card:nth-child(2){
 	margin-left: 95px;
@@ -926,7 +946,7 @@ footer .container {
 	object-fit: cover;
 }
 .over_top{
-	margin-top: 90px;
+	margin-top: 105px;
 }
 .over_tit {
 	color: #090909;
@@ -979,7 +999,9 @@ footer .container {
 	line-height: 30.006px;
 	/* 166.7% */
 }
-
+.over_big{
+	margin-right: 200px;
+}
 .o_t {
 	height: 162px;
 	justify-content: center;
@@ -1035,8 +1057,9 @@ footer .container {
 }
 
 .card1 {
-	margin: 10px;
-	max-width: 388px;
+	/* margin: 10px; */
+	width: 388px;
+	gap: 12px;
 	height: 450px;
 	flex-shrink: 0;
 	border-radius: 12px;
@@ -1045,6 +1068,8 @@ footer .container {
 	display: inline-block;
 	box-shadow: 0px 2px 12px 0px rgba(43, 43, 43, 0.06);
 	transition: 0.3s;
+	margin-bottom: 15px;
+	margin-left: 15px;
 }
 
 .card1:hover {
@@ -1054,7 +1079,7 @@ footer .container {
 .c_img { 
 	width: 172px;
 height: 172px;
-margin-left: 90px;
+margin-left: 110px;
 margin-top: 57px;
 margin-bottom: 24px;
 background: url(./img/card.svg),
@@ -1070,7 +1095,7 @@ background: url(./img/card.svg),
 	text-align: center;
 	/* width: 193px; */
 	font-size: 24px;
-	font-style: normal;
+
 	font-weight: 700;
 	line-height: 34.008px;
 	margin-bottom: 11px;
@@ -1082,10 +1107,8 @@ background: url(./img/card.svg),
 	color: #6E6E6E;
 	text-align: center;
 	font-size: 18px;
-	font-style: normal;
-	font-weight: 400;
 	line-height: 30.006px;
-	margin-left: 30px;
+	margin-left: 40px;
 }
 
 .yel {
@@ -1301,6 +1324,7 @@ footer {
 .footer_big {
 	max-width: 1268px;
 	height: 751px;
+	margin-right: 80px;
 }
 
 .f_left {
@@ -1494,7 +1518,9 @@ footer {
 	width: 50px;
 	border-radius: 40px;
 	filter: brightness(140%);
+
 }
+
 .but_right{
 	margin-top: -10px;
 }
